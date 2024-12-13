@@ -1,0 +1,29 @@
+# Исключить папку node_modules, содержащую зависимости проекта
+node_modules/
+
+# Логи
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Экологические переменные и конфиденциальные файлы
+.env
+.env.local
+.env.*.local
+
+# Кэш
+.cache/
+.parcel-cache/
+
+# Сборка и артефакты
+dist/
+build/
+out/
+
+# Деплойментные файлы
+.next/
+.vercel/
+
+# Данные OS
+.DS_Store
+Thumbs.db
